@@ -1,0 +1,11 @@
+GET http://localhost:8080/system/status
+Accept: text/plain
+
+###
+POST http://localhost:8080/ai/query
+Content-Type: application/json
+Accept: application/json
+
+{
+  "q": "Explain NullPointerException briefly"
+}
