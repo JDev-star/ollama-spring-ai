@@ -9,3 +9,11 @@ Accept: application/json
 {
   "q": "Explain NullPointerException briefly"
 }
+
+###
+GET http://localhost:8080/null
+Accept: text/plain
+
+###
+GET http://localhost:8080/ai/advice/{{id}}
+Accept: text/plain

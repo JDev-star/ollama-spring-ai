@@ -1,1 +1,2 @@
 com.example.advisor.starter.AiClientAutoConfiguration
+com.example.advisor.starter.AiExceptionHandlerAutoConfiguration
